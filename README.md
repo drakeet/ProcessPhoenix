@@ -47,6 +47,7 @@ allprojects {
 dependencies {
   implementation 'com.github.drakeet:ProcessPhoenix:2.1.0'
 }
+```
 
 More versions: https://jitpack.io/#drakeet/ProcessPhoenix
 
