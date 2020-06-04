@@ -34,11 +34,21 @@ if (ProcessPhoenix.isPhoenixProcess(this)) {
 Download
 --------
 
-```groovy
-implementation 'com.jakewharton:process-phoenix:2.0.0'
+```
+allprojects {
+  repositories {
+	...
+	maven { url 'https://jitpack.io' }
+  }
+}
 ```
 
-Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
+```
+dependencies {
+  implementation 'com.github.drakeet:ProcessPhoenix:2.1.0'
+}
+
+More versions: https://jitpack.io/#drakeet/ProcessPhoenix
 
 
 
